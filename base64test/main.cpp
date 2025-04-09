@@ -29,7 +29,7 @@ std::string base64_decode(const std::string &input) {
 }
 
 int main() {
-    std::string original = "Hello, Base64! 你好！";
+    std::string original = "Hello, Base64!";
     std::cout << "原始字符串: " << original << std::endl;
 
     std::string encoded = base64_encode(original);
