@@ -1,4 +1,3 @@
-// service.proto
 syntax = "proto3";
 
 service Greeter {
